@@ -187,8 +187,8 @@
         var y = Math.round(Math.random()*49)
         buah = [x,y]
         while(ular.includes(buah)){
-            x = Math.random(49)
-            y = Math.random(49)
+            x = Math.round(Math.random()*49)
+            y = Math.round(Math.random()*49)
             buah = [x,y] 
         }
         document.getElementById(x+","+y).classList.add("bg-primary")
